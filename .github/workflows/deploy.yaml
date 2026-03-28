@@ -23,4 +23,4 @@ jobs:
         run: |
           helm upgrade --install myapp . \
             -f values-prod.yaml \
-            --dry-run
+            --dry-run --client
